@@ -1,0 +1,7 @@
+import { capitalise } from "./utilities.js";
+
+const greetPerson = (name) => {
+    return ` Hello ${capitalise(name)}`;
+}
+
+export {greetPerson};
